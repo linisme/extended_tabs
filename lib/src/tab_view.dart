@@ -443,7 +443,7 @@ class _ExtendedTabBarViewState extends State<ExtendedTabBarView> {
     assert(_hold == null || _drag == null);
     _handleAncestorOrChild(details, _ancestor);
 
-    _handleAncestorOrChild(details, _child);
+    // _handleAncestorOrChild(details, _child);
 
     // TODO(zmtzawqlp): if there are two drag, how to do we do?
     assert(!(_ancestor?._drag != null && _child?._drag != null));
